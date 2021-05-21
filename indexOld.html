@@ -7,7 +7,7 @@
     <meta name="keywords" content="Dreams, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Heartclickers - Portfolio</title>
+    <title>Heartclickers - Home </title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap"
@@ -24,120 +24,6 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <style type="text/css" rel="stylesheet">
-        /* Style the Image Used to Trigger the Modal */
-   .img-thumbnail{
-     border-radius: 5px;
-     cursor: pointer;
-     transition: 0.3s;
-   }
-   
-   .img-thumbnail:hover {opacity: 0.7;}
-   
-   /* The Modal (background) */
-   .modal {
-     display: none; /* Hidden by default */
-     position: fixed; /* Stay in place */
-     z-index: 1; /* Sit on top */
-     padding-top: 50px; /* Location of the box */
-     left: 0;
-     top: 0;
-     width: 100%; /* Full width */
-     height: 100%; /* Full height */
-     overflow: auto; /* Enable scroll if needed */
-     background-color: rgb(0,0,0); /* Fallback color */
-     background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-   }
-   /* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 60%;
-  width: auto;
-  padding: 16px;
-  /* margin-top: -22px; */
-  color: rgb(12, 12, 12);
-  font-weight: bold;
-  font-size: 28px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 10px;
-  border-radius: 3px 0 0 3px;
-}
-.prev {
-  left: 10px;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-   
-   /* Modal Content (Image) */
-   .modal-content {
-     margin: auto;
-     display: block;
-     width: 80%;
-     max-width: 700px;
-   }
-   
-   /* Caption of Modal Image (Image Text) - Same Width as the Image */
-   #caption {
-     margin: auto;
-     display: block;
-     width: 80%;
-     max-width: 700px;
-     text-align: center;
-     color: #ccc;
-     padding: 10px 0;
-     height: 150px;
-   }
-   
-   /* Add Animation - Zoom in the Modal */
-   .modal-content, #caption {
-     animation-name: zoom;
-     animation-duration: 0.6s;
-   }
-   
-   @keyframes zoom {
-     from {transform:scale(0)}
-     to {transform:scale(1)}
-   }
-   
-   /* The Close Button */
-   .close {
-     position: absolute;
-     top: 15px;
-     right: 35px;
-     color: #f1f1f1;
-     font-size: 40px;
-     font-weight: bold;
-     transition: 0.3s;
-   }
-   
-   .close:hover,
-   .close:focus {
-     color: #bbb;
-     text-decoration: none;
-     cursor: pointer;
-   }
-   .fg__item{
-       cursor: pointer;
-   }
-   /* 100% Image Width on Smaller Screens */
-   @media only screen and (max-width: 700px){
-     .modal-content {
-       width: 100%;
-     }
-   } 
-       </style>
-
 </head>
 
 <body>
@@ -158,8 +44,8 @@
                 <div class="col-lg-8 col-md-9">
                     <nav class="header__menu mobile-menu">
                         <ul>
-                            <li><a href="./index.html">Home</a></li>
-                            <li class="active"><a href="./services.html">Services</a></li>
+                            <li class="active"><a href="./index.html">Home</a></li>
+                            <li><a href="./services.html">Services</a></li>
                             <li><a href="./portfolio.html">Portfolio</a></li>
                             <li><a href="./about.html">About</a>
                             </li>
@@ -186,20 +72,79 @@
     </header>
     <!-- Header End -->
 
-    <!-- Breadcrumb Begin -->
-    <div class="breadcrumb-option set-bg" data-setbg="img/breadcrumb-bg.jpg">
+    <!-- Hero Section Begin -->
+    <section class="hero set-bg" data-setbg="img/hero.png">
         <div class="container-fluid">
+            <div class="hero__text">
+                <img src="img/icon/hi.png" alt="">
+                <h5>Welcom to Dream</h5>
+                <h2>Plan the perfect wedding</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusm`od tempor. </p>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Services Section Begin -->
+    <section class="services spad">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="breadcrumb__text">
-                        <h2>Portfolio</h2>
+                    <div class="section-title">
+                        <h2>Our services</h2>
+                        <img src="img/icon/ti.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/icon/pngwing.com (1).png" width="70" height="70" alt="">
+                        <h4>Candid Photography</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusm`od tempor.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/icon/pngwing.com.png" width="70" height="70" alt="">
+                        <h4>Candid Wedding Films</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusm`od tempor.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/icon/wd.png" width="70" height="70" alt="">
+                        <h4>Post Wedding Shoots</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusm`od tempor.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/icon/kd.png" width="70" height="70" alt="">
+                        <h4>Kids Photography</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusm`od tempor.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/icon/pngwing.com (3).png" width="70" height="70" alt="">
+                        <h4>New Born Shoots</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusm`od tempor.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="services__item">
+                        <img src="img/icon/pngwing.com (2).png" width="70" height="70" alt="">
+                        <h4>Modeling</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusm`od tempor.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Breadcrumb End -->
+    </section>
+    <!-- Services Section End -->
 
+    <!-- Feature Section Begin -->
     <section class="features spad">
         <div class="container">
             <div class="row">
@@ -365,11 +310,86 @@
     <!-- Feature Section End -->
 
     <!-- Counter Section Begin -->
-   
+    <div class="counter spad set-bg" data-setbg="img/counter-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="counter__item">
+                        <img src="img/icon/ci-1.png" alt="">
+                        <h2 class="counter_num">8365</h2>
+                        <p>Photos</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="counter__item">
+                        <img src="img/icon/ci-2.png" alt="">
+                        <h2 class="counter_num">568</h2>
+                        <p>Happy Couple</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="counter__item">
+                        <img src="img/icon/ci-3.png" alt="">
+                        <h2 class="counter_num">849</h2>
+                        <p>Joast</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="counter__item">
+                        <img src="img/icon/ci-4.png" alt="">
+                        <h2 class="counter_num">2574</h2>
+                        <p>Dress Cakes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Counter Section End -->
 
     <!-- Request Form Section Begin -->
-   
+    <section class="request">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-7">
+                    <div class="request__form">
+                        <div class="section-title">
+                            <span>let’s meet</span>
+                            <h2>Make a request</h2>
+                            <p>Should you have any enquiries about Wedding Planner, please fill in our enquiry form.</p>
+                        </div>
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 px-2">
+                                    <input type="text" placeholder="Name">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 px-2">
+                                    <input type="text" placeholder="Email">
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 px-2">
+                                    <select>
+                                        <option value="">Services</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 2</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 px-2">
+                                    <select>
+                                        <option value="">Guest</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 2</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-12 px-2 text-center">
+                                    <textarea placeholder="Message"></textarea>
+                                    <button type="submit" class="site-btn">send a request</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Request Form Section End -->
 
     <!-- Latest Blog Section Begin -->
@@ -402,9 +422,9 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="footer__social">
                             <a href="https://www.facebook.com/Heartclickers"><i class="fa fa-facebook"></i></a>
-                           
+                            <a href="#"><i class="fa fa-twitter"></i></a>
                             <a href="https://www.instagram.com/heartclickers"><i class="fa fa-instagram"></i></a>
-                          
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
                         </div>
                     </div>
                 </div>
@@ -475,21 +495,6 @@
         </form>
     </div>
 </div>
-
-<div id="myModal" class="modal">
-
-    <!-- The Close Button -->
-    <span class="close">&times;</span>
-  
-    <!-- Modal Content (The Image) -->
-    <img class="modal-content" id="img01">
-   
-    <!-- Modal Caption (Image Text) -->
-    <div id="caption">
-        <a class="prev" id="prevButton">&#10094;</a>
-        <a class="next" id="nextButton">&#10095;</a>
-    </div>
-  </div> 
 <!-- Search model end -->
 
 <!-- Js Plugins -->
@@ -503,52 +508,6 @@
 <script src="js/jquery.slicknav.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/main.js"></script>
-<script>
-    // Get the modal
-    var modal = document.getElementById('myModal');
-    var nextButton = document.getElementById("nextButton");
-    var prevButton = document.getElementById("prevButton");
-    var currentElement;
-    // Get the images and bind an onclick event on each to insert it inside the modal
-    // use its "alt" text as a caption
-    var images = document.querySelectorAll(".fg__item");
-    
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
-    for(let i = 0; i < images.length; i++){
-      images[i].onclick = function(){
-          
-        modal.style.display = "block";
-        modalImg.src = this.dataset.setbg;
-        currentElement = this;
-        console.log(this.nextElementSibling.dataset.setbg);
-        // captionText.innerHTML = this.alt;
-      }
-    }
-    
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-    
-        nextButton.addEventListener("click", function() {
-            modalImg.src = currentElement.nextElementSibling.dataset.setbg;
-            currentElement = currentElement.nextElementSibling;
-        });
-         prevButton.addEventListener("click", function() {
-            if(currentElement.previousElementSibling!=null){
-                modalImg.src = currentElement.previousElementSibling.dataset.setbg;
-                currentElement = currentElement.previousElementSibling;
-            }
-           
-           
-        });
-
-
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
-    } 
-    </script>
 </body>
 
 </html>
